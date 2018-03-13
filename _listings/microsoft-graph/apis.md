@@ -32,7 +32,7 @@ apis:
   tags: Columns
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/columns/master/_listings/microsoft-graph/workbook-worksheets(-lt;id|name-gt;)-range(-lt;address-gt;)-format-autofitcolumns-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/columns/master/_listings/microsoft-graph/workbook-tables(-lt;id|name-gt;)-columns(-lt;id|name-gt;)-range-format-autofitcolumns-post.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog

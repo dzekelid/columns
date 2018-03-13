@@ -32,7 +32,7 @@ apis:
   tags: Columns
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/columns/master/_listings/microsoft-graph/workbook-tables(-lt;id|name-gt;)-columns-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/columns/master/_listings/microsoft-graph/workbook-worksheets(-lt;id|name-gt;)-tables(-lt;id|name-gt;)-columns-get.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog

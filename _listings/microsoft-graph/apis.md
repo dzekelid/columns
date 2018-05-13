@@ -33,18 +33,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/columns/master/_listings/microsoft-graph/workbook-worksheets(-lt;id|name-gt;)-tables(-lt;id|name-gt;)-columns-get.md
-- name: Microsoft Graph API Range Format Autofit Columns
-  description: 'RangeFormat: autofitColumns Changes the width of the columns of the
-    current range to achieve the best fit, based on the current data in the columns.'
+- name: Microsoft Graph API List Columns
+  description: List columns Retrieve a list of tablecolumn objects.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
   baseURL: https://graph.microsoft.com//
   tags: Columns
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/microsoft-graph/workbook-tables(-lt;id|name-gt;)-columns(-lt;id|name-gt;)-range-format-autofitcolumns-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/microsoft-graph/workbook-tables(-lt;id|name-gt;)-columns-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/microsoft-graph/workbook-tables(-lt;id|name-gt;)-columns(-lt;id|name-gt;)-range-format-autofitcolumns-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/microsoft-graph/workbook-tables(-lt;id|name-gt;)-columns-get-postman.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog

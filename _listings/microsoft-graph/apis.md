@@ -42,9 +42,9 @@ apis:
   tags: Columns
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/microsoft-graph/workbook-names(-lt;name-gt;)-range-format-autofitcolumns-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/microsoft-graph/workbook-worksheets(-lt;id|name-gt;)-range(-lt;address-gt;)-format-autofitcolumns-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/microsoft-graph/workbook-names(-lt;name-gt;)-range-format-autofitcolumns-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/microsoft-graph/workbook-worksheets(-lt;id|name-gt;)-range(-lt;address-gt;)-format-autofitcolumns-post-postman.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog

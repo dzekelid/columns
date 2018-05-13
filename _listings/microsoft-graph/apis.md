@@ -33,7 +33,33 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/columns/master/_listings/microsoft-graph/workbook-worksheets(-lt;id|name-gt;)-tables(-lt;id|name-gt;)-columns-get.md
+- name: Microsoft Graph API Range Format Autofit Columns
+  description: 'RangeFormat: autofitColumns Changes the width of the columns of the
+    current range to achieve the best fit, based on the current data in the columns.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Columns
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/microsoft-graph/workbook-names(-lt;name-gt;)-range-format-autofitcolumns-post.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/microsoft-graph/workbook-names(-lt;name-gt;)-range-format-autofitcolumns-post-postman.md
 x-common:
+- type: x-change-loge
+  url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
+- type: x-documentation
+  url: https://developer.microsoft.com/en-us/graph/docs
+- type: x-explorer
+  url: https://developer.microsoft.com/en-us/graph/graph-explorer
+- type: x-getting-started
+  url: https://developer.microsoft.com/en-us/graph/docs/get-started/rest
+- type: x-github
+  url: https://github.com/microsoftgraph
+- type: x-sdk
+  url: https://developer.microsoft.com/en-us/graph/code-samples-and-sdks
+- type: x-website
+  url: https://developer.microsoft.com/en-us/graph/
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
 - type: x-documentation

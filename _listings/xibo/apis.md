@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Columns
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/xibo/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,6 +26,78 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/xibo/datasetdatasetidcolumn-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/xibo/datasetdatasetidcolumn-get-openapi.md
+- name: Xibo API - Add Column
+  x-api-slug: datasetdatasetidcolumn-post
+  description: Add a Column to a DataSet
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/xibo/datasetdatasetidcolumn-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/xibo/datasetdatasetidcolumn-post-openapi.md
+- name: Xibo API - Edit Column
+  x-api-slug: datasetdatasetidcolumndatasetcolumnid-put
+  description: Edit a Column to a DataSet
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/xibo/datasetdatasetidcolumndatasetcolumnid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/xibo/datasetdatasetidcolumndatasetcolumnid-put-openapi.md
+- name: Xibo API - Delete Column
+  x-api-slug: datasetdatasetidcolumndatasetcolumnid-delete
+  description: Delete DataSet Column
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/xibo/datasetdatasetidcolumndatasetcolumnid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/xibo/datasetdatasetidcolumndatasetcolumnid-delete-openapi.md
+- name: Xibo API - Delete Column
+  x-api-slug: datasetdatasetidcolumndatasetcolumnid-delete
+  description: Delete DataSet Column
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/xibo/datasetdatasetidcolumndatasetcolumnid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/xibo/datasetdatasetidcolumndatasetcolumnid-delete-openapi.md
+- name: Xibo API - Edit Column
+  x-api-slug: datasetdatasetidcolumndatasetcolumnid-put
+  description: Edit a Column to a DataSet
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/xibo/datasetdatasetidcolumndatasetcolumnid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/xibo/datasetdatasetidcolumndatasetcolumnid-put-openapi.md
+- name: Xibo API - Add Column
+  x-api-slug: datasetdatasetidcolumn-post
+  description: Add a Column to a DataSet
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/xibo/datasetdatasetidcolumn-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/xibo/datasetdatasetidcolumn-post-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://blog.xibo.org.uk/rss/

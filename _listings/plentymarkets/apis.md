@@ -11,11 +11,167 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Columns
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: plentymarkets REST-API - Updates the position of a specific column. Also updates
+    the positions of all following columns on the same board.
+  x-api-slug: restboardsboardidcolumnscolumnidposition-put
+  description: Updates the position of a specific column. also updates the positions
+    of all following columns on the same board..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/plentymarkets/restboardsboardidcolumnscolumnidposition-put-openapi.md
+- name: plentymarkets REST-API - Creates a new column and assigns it to a given board
+  x-api-slug: restboardsboardidcolumns-post
+  description: Creates a new column and assigns it to a given board.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/plentymarkets/restboardsboardidcolumns-post-openapi.md
+- name: plentymarkets REST-API - Deletes a specific column.
+  x-api-slug: restboardsboardidcolumnscolumnid-delete
+  description: Deletes a specific column..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/plentymarkets/restboardsboardidcolumnscolumnid-delete-openapi.md
+- name: plentymarkets REST-API - Copies a specific column.
+  x-api-slug: restboardsboardidcolumnscolumnid-post
+  description: Copies a specific column..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/plentymarkets/restboardsboardidcolumnscolumnid-post-openapi.md
+- name: plentymarkets REST-API - Updates a specific column.
+  x-api-slug: restboardsboardidcolumnscolumnid-put
+  description: Updates a specific column..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/plentymarkets/restboardsboardidcolumnscolumnid-put-openapi.md
+- name: plentymarkets REST-API - Updates the position of a specific column. Also updates
+    the positions of all following columns on the same board.
+  x-api-slug: restboardsboardidcolumnscolumnidposition-put
+  description: Updates the position of a specific column. also updates the positions
+    of all following columns on the same board..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/plentymarkets/restboardsboardidcolumnscolumnidposition-put-openapi.md
+- name: plentymarkets REST-API - Lists all tasks for a given column.
+  x-api-slug: restboardsboardidcolumnscolumnidtasks-get
+  description: Lists all tasks for a given column..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/plentymarkets/restboardsboardidcolumnscolumnidtasks-get-openapi.md
+- name: plentymarkets REST-API - Creates a new tasks on a specified column.
+  x-api-slug: restboardsboardidcolumnscolumnidtasks-post
+  description: Creates a new tasks on a specified column..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/plentymarkets/restboardsboardidcolumnscolumnidtasks-post-openapi.md
+- name: plentymarkets REST-API - Creates a new tasks on a specified column.
+  x-api-slug: restboardsboardidcolumnscolumnidtasks-post
+  description: Creates a new tasks on a specified column..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/plentymarkets/restboardsboardidcolumnscolumnidtasks-post-openapi.md
+- name: plentymarkets REST-API - Lists all tasks for a given column.
+  x-api-slug: restboardsboardidcolumnscolumnidtasks-get
+  description: Lists all tasks for a given column..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/plentymarkets/restboardsboardidcolumnscolumnidtasks-get-openapi.md
+- name: plentymarkets REST-API - Updates the position of a specific column. Also updates
+    the positions of all following columns on the same board.
+  x-api-slug: restboardsboardidcolumnscolumnidposition-put
+  description: Updates the position of a specific column. also updates the positions
+    of all following columns on the same board..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/plentymarkets/restboardsboardidcolumnscolumnidposition-put-openapi.md
+- name: plentymarkets REST-API - Updates a specific column.
+  x-api-slug: restboardsboardidcolumnscolumnid-put
+  description: Updates a specific column..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/plentymarkets/restboardsboardidcolumnscolumnid-put-openapi.md
+- name: plentymarkets REST-API - Copies a specific column.
+  x-api-slug: restboardsboardidcolumnscolumnid-post
+  description: Copies a specific column..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/plentymarkets/restboardsboardidcolumnscolumnid-post-openapi.md
+- name: plentymarkets REST-API - Deletes a specific column.
+  x-api-slug: restboardsboardidcolumnscolumnid-delete
+  description: Deletes a specific column..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/plentymarkets/restboardsboardidcolumnscolumnid-delete-openapi.md
+- name: plentymarkets REST-API - Creates a new column and assigns it to a given board
+  x-api-slug: restboardsboardidcolumns-post
+  description: Creates a new column and assigns it to a given board.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/plentymarkets/restboardsboardidcolumns-post-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.plentymarkets.co.uk/?ActionCall=WebActionRSS&rrss_id=1

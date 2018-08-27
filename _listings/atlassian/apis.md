@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlass
 x-kinRank: "8"
 x-alexaRank: "1656"
 tags: Columns
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/atlassian/apis.md
 specificationVersion: "0.14"
 apis:
@@ -149,6 +149,23 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/atlassian/api2usercolumns-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/atlassian/api2usercolumns-delete-openapi.md
+- name: Jira Cloud REST API - Get columns
+  x-api-slug: api2filteridcolumns-get
+  description: Returns the columns configured for a filter. The column configuration
+    is used when the filter's results are viewed in _List View_ with the _Columns_
+    set to _Filter_. **[Permissions](https://confluence.atlassian.com/x/FQiiLQ) required:**
+    None, however the calling user must have permission to view the filter.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/atlassian/api2filteridcolumns-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/columns/master/_listings/atlassian/api2filteridcolumns-get-openapi.md
 x-common:
 - type: x-openapi
   url: https://developer.atlassian.com/cloud/jira/platform/swagger.v3.json
